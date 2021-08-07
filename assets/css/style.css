@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap");
+
+html {
+     scroll-behavior: smooth !important;
+}
+body {
+     font-family: "Open Sans", sans-serif !important;
+     font-weight: 500 !important;
+}
+
+.nav-item a {
+     font-weight: 600 !important;
+}
+
+#services h1 {
+     font-weight: 600 !important;
+     letter-spacing: 1px !important;
+}
+
+#card-section .card {
+     margin: 10px 0px !important;
+     border: none !important;
+     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%), 0 6px 20px 0 rgb(0 0 0 / 2%);
+}
+#card-section .card i {
+     font-size: 30px;
+     color: #28a745;
+}
+#card-section .card h4 {
+     font-size: 12px;
+     font-weight: 600;
+     padding: 10px 0px;
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     color: #002d5e !important;
+}
+
+.navbar-nav-link-soc {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+.navbar-brand {
+     font-weight: 800;
+}
+.navItemLink {
+     padding: 0px 20px !important;
+     display: none;
+}
+
+.skillTitle {
+     font-size: 16px !important;
+     font-weight: 600 !important;
+}
+.skill_icon {
+     font-size: 30px;
+}
+.about_title_me {
+     font-weight: 600 !important;
+     letter-spacing: 1px;
+}
+
+.about_des {
+     line-height: 40px;
+     letter-spacing: 1px;
+}
+
+#footer ul li a {
+     font-size: 22px;
+}
+
+#footer ul li .fb {
+     color: #3b5998 !important;
+}
+#footer ul li .tw {
+     color: #1da1f2 !important;
+}
+#footer ul li .lin {
+     color: #0077b5 !important;
+}
+#footer ul li .git {
+     color: #211f1f !important;
+}
+
+#footer ul li {
+     margin-right: 0px !important;
+}
+#contact h5,
+h3 {
+     font-weight: 600 !important;
+}
+#contact i {
+     font-size: 30px !important;
+     color: #28a745 !important;
+}
+
+@media only screen and (min-width: 326px) {
+     .navItemLink {
+          display: block;
+     }
+}
